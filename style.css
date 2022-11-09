@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(BACKGROUND.jpg);
+}
+
+.circle {
+  width: 800px;
+  height: 800px;
+  background-color: rgb(248, 223, 193);
+  margin: 73px auto;
+  border-radius: 50%;
+  text-align: center
+}
+
+.flex {
+  display: flex;
+  flex-direction: column
+}
+
+.img {
+  margin-top: 120px;
+  margin-bottom: 40px;
+
+}
+
+
+.para {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: grey;
+}
+
+div h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  color: rgb(53, 203, 121);
+}
+
+div h2 {
+  margin-bottom: 70px;
+  color: rgb(106, 209, 153);
+}
+
+.division p {
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+
+.division h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+
+@media only screen and (min-width:360px) and (max-width:700px) {
+  .circle {
+    width: 100vw;
+    margin-top: 300px
+  }
+}
+
+@media only screen and (min-width:701px) and (max-width:1024px) {
+  .circle {
+    width: 100vw;
+    margin: 100px auto;
+  }
+}
